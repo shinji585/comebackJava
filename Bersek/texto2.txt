@@ -1,0 +1,7 @@
+
+Nombre: francisco
+Edad: 48
+Sueldo: $1500000.0
+Nombre: samuel
+Edad: 19
+Sueldo: $70000.0

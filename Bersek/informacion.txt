@@ -1,0 +1,5 @@
+------ Registro ------
+Persona nombre: samuel vargas 
+Ciudad de residencia: cartagena de indias 
+Persona sueños: ser cientifico de la computacion
+
