@@ -70,4 +70,4 @@ Incluye **ejercicios resueltos y en práctica**, sin importar el orden del tema 
 
 ## 🚀 Autor
 
-**Shinji551** — Estudio autodidacta con el objetivo de dominar el manejo de archivos y persistencia en Java.
+**Shinji585** — Estudio autodidacta con el objetivo de dominar el manejo de archivos y persistencia en Java.
