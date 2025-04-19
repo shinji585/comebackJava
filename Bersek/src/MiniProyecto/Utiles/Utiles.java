@@ -44,8 +44,7 @@ public class Utiles {
                 Estudiante estudiante = Estudiante.fromString(partes[1]);
                 estudiantesReader.put(id, estudiante);
             }
-            System.out.println("estuidantes cargados con exito: ");
-            estudiantesReader.forEach((k,v) -> System.out.println(k + " -> " + v.getName() + " tiene una edad de: " + v.getEdad() + " saco una nota de: " + v.getNota() + " en la asignatura de: " +v.getAsignatura()));
+            estudiantesReader.forEach((k,v) -> System.out.println(k + " -> " + v.getName() + " tiene una edad de: " + v.getEdad() + "\nSaco una nota de: " + v.getNota() + ",en la asignatura de: " +v.getAsignatura()));
         } catch (Exception e) {
             System.out.println("Error de tipo: " + e.getLocalizedMessage());
         }
