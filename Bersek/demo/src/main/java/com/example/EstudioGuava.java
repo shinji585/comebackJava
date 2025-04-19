@@ -12,6 +12,7 @@ import java.util.Scanner;
 import java.util.stream.Stream;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 public class EstudioGuava {
 
@@ -19,7 +20,7 @@ public class EstudioGuava {
     public static void escribir(Auto auto){
         String json = "autos.json";
         try (BufferedWriter br = new BufferedWriter(new FileWriter(json, true))) {
-            Gson gson = new Gson();
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
             String autojson = gson.toJson(auto);
             br.write(autojson);
             br.newLine(); // ← Asegura que cada objeto quede en una línea separada

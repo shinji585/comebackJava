@@ -1,11 +1,14 @@
-[
-    {"nombre":"Kia","tipo":"deportivo","cantidadRuedas":4},
-    {"nombre":"ferrari","tipo":"super deportivo","cantidadRuedas":4},
-    {"nombre":"toyota","tipo":"camioneta","cantidadRuedas":4},
-    {"nombre":"BMW","tipo":"moto cicleta","cantidadRuedas":2},
-    {"nombre":"toyota","tipo":"camioneta","cantidadRuedas":4},
-    {"nombre":"Honda","tipo":"moto","cantidadRuedas":2},
-    {"nombre":"toyota","tipo":"camioneta","cantidadRuedas":4},
-    {"nombre":"BMW","tipo":"motocicleta deportiva","cantidadRuedas":2}
-  ]
+[  
+  {
+
+      "nombre": "bmw",
+      "tipo": "deportivo",
+      "cantidadRuedas": 4
   
+  },
+  {
+      "nombre": "KIA",
+      "tipo": "sub",
+      "cantidadRuedas": 4
+  }
+]
